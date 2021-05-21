@@ -17,19 +17,38 @@ body .h1 {
   justify-content: center;
   color: white;
   position: relative;
+  top: 40px;
+}
+body .boxes .empty {
+  display: inline-block;
+  height: 160px;
+  width: 160px;
+  margin: 10px;
+  border: 5px orange solid;
+  background-color: #fff;
+  position: relative;
+  border-radius: 10px;
   top: 140px;
 }
-body .empty .fill {
-  background: url("./../assets/js.png");
+body .boxes .empty .fill {
+  background: url("./../assets/bob.png");
   position: relative;
   height: 150px;
   width: 150px;
-  top: 200px;
-  left: 50px;
   object-fit: cover;
   background-repeat: no-repeat;
   background-position: center;
   cursor: pointer;
+}
+body .hold {
+  border: dotted black 4px;
+}
+body .hovered {
+  background: gray;
+  border-style: dashed;
+}
+body .invisible {
+  display: none;
 }
 
 /*# sourceMappingURL=main.css.map */
