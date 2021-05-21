@@ -1,0 +1,29 @@
+body {
+    background:url("./../assets/milkyway.jpeg");
+    background-position: cover;
+    object-fit: cover;
+    height: 100vh;
+    width: 100vw;
+    
+    .h1 {
+        display: flex;
+        justify-content: center;
+        color: white;
+        position: relative;
+        top: 140px;
+    }
+    .empty {
+        .fill {
+            background: url("./../assets/js.png");
+            position: relative;
+            height: 150px;
+            width: 150px;
+            top: 200px;
+            left: 50px;
+            object-fit: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            cursor: pointer;
+        }
+    }
+}
