@@ -13,11 +13,11 @@ body {
   width: 100vw;
 }
 body .header {
-  display: flex;
-  justify-content: center;
-  color: white;
-  position: relative;
-  top: 40px;
+  display: flex !important;
+  justify-content: center !important;
+  color: white !important;
+  position: relative !important;
+  top: 40px !important;
 }
 body .boxes .empty {
   display: inline-block;
