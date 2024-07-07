@@ -26,8 +26,8 @@
     "url": "https://github.com/ciamac-da/drag-and-drop-vanilla/issues"
   },
   "dependencies": {
-    "gh-pages": "latest",
-    "live-server": "latest",
+    "gh-pages": "^6.1.1",
+    "live-server": "^1.2.0",
     "npm-run-all": "latest",
     "sass": "latest"
   }
